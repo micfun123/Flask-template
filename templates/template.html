@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    
+</head>
+  <body>
+    <header >
+      <div class="container">
+        <h1 class="logo">This is in the template file and will show on every page</h1>
+        
+      </div>
+    </header>
+    
+{% block content %}
+{% endblock %}
+
+ </body>
+
+ <footer style="background-color: beige; padding: 2%;">
+  <p style="text-align: center;"> This was made by: <a href="https://twitter.com/Michaelrbparker">Michael Parker</a>  (this will also show in every page</p>
+ </footer>
+</html>
